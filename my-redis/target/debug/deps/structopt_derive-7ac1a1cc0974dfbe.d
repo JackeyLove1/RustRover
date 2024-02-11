@@ -1,0 +1,10 @@
+/Users/jacky/RustroverProjects/rustv1/my-redis/target/debug/deps/libstructopt_derive-7ac1a1cc0974dfbe.dylib: /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/lib.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/attrs.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/doc_comments.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/parse.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/spanned.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/ty.rs
+
+/Users/jacky/RustroverProjects/rustv1/my-redis/target/debug/deps/structopt_derive-7ac1a1cc0974dfbe.d: /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/lib.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/attrs.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/doc_comments.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/parse.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/spanned.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/ty.rs
+
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/lib.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/attrs.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/doc_comments.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/parse.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/spanned.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/structopt-derive-0.4.18/src/ty.rs:

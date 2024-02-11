@@ -1,0 +1,11 @@
+/Users/jacky/RustroverProjects/rustv1/tokio-study/target/debug/deps/libsocket2-5fafe0043ec18c2a.rmeta: /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/lib.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockaddr.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/socket.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockref.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sys/unix.rs
+
+/Users/jacky/RustroverProjects/rustv1/tokio-study/target/debug/deps/libsocket2-5fafe0043ec18c2a.rlib: /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/lib.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockaddr.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/socket.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockref.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sys/unix.rs
+
+/Users/jacky/RustroverProjects/rustv1/tokio-study/target/debug/deps/socket2-5fafe0043ec18c2a.d: /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/lib.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockaddr.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/socket.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockref.rs /Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sys/unix.rs
+
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/lib.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockaddr.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/socket.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sockref.rs:
+/Users/jacky/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/socket2-0.5.5/src/sys/unix.rs:
