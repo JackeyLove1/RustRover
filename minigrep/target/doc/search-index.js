@@ -1,5 +1,0 @@
-var searchIndex = JSON.parse('{\
-"minigrep":{"doc":"","t":"DLLLMLMLMFFLLL","n":["Config","borrow","borrow_mut","build","file_path","from","ignore_case","into","query","run","search","try_from","try_into","type_id"],"q":[[0,"minigrep"],[14,"alloc::string"],[15,"core::result"],[16,"core::error"],[17,"alloc::boxed"],[18,"alloc::vec"],[19,"core::any"]],"d":["","","","","","Returns the argument unchanged.","","Calls <code>U::from(self)</code>.","","","","","",""],"i":[0,3,3,3,3,3,3,3,3,0,0,3,3,3],"f":[0,[-1,-2,[],[]],[-1,-2,[],[]],[[[2,[1]]],[[5,[3,4]]]],0,[-1,-1,[]],0,[-1,-2,[],[]],0,[3,[[5,[6,[8,[7]]]]]],[[4,4],[[9,[4]]]],[-1,[[5,[-2]]],[],[]],[-1,[[5,[-2]]],[],[]],[-1,10,[]]],"c":[],"p":[[3,"String",14],[15,"slice"],[3,"Config",0],[15,"str"],[4,"Result",15],[15,"tuple"],[8,"Error",16],[3,"Box",17],[3,"Vec",18],[3,"TypeId",19]],"b":[]}\
-}');
-if (typeof window !== 'undefined' && window.initSearch) {window.initSearch(searchIndex)};
-if (typeof exports !== 'undefined') {exports.searchIndex = searchIndex};

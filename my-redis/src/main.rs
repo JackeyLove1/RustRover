@@ -1,17 +1,53 @@
-use mini_redis::{client, Result};
-
+use tokio::sync::mpsc;
+use std::time::{Duration, Instant};
+use std::thread;
 #[tokio::main]
-async fn main() -> Result<()> {
-    // Open a connection to the mini-redis address.
-    let mut client = client::connect("127.0.0.1:6379").await?;
+async fn main() {
+    let (tx, mut rx) = mpsc::channel(100);
 
-    // Set the key "hello" with value "world"
-    client.set("hello", "world".into()).await?;
+    tokio::spawn(async move {
+        for i in 0..10 {
+            if let Err(_) = tx.send(i).await {
+                println!("receiver dropped");
+                return;
+            }
+        }
+    });
 
-    // Get key "hello"
-    let result = client.get("hello").await?;
+    while let Some(i) = rx.recv().await {
+        println!("got = {}", i);
+    }
 
-    println!("got value from the server; result={:?}", result);
+    let op = say_hello();
+    println!("hello");
+    op.await;
 
-    Ok(())
+    let handle = tokio::spawn(async{
+        println!("run async work");
+        std::thread::sleep(std::time::Duration::from_millis(100));
+       return "sub thread done";
+    });
+    println!("main still running ... ");
+    let out = handle.await.unwrap();
+    println!("out: {}", out);
+
+    let (tx, mut rx) = mpsc::channel(32);
+    let tx2 = tx.clone();
+
+    tokio::spawn(async move {
+        tx.send("sending from first handle").await;
+    });
+
+    tokio::spawn(async move {
+        tx2.send("sending from second handle").await;
+    });
+
+    while let Some(message) = rx.recv().await {
+        println!("GOT = {}", message);
+    }
 }
+
+async fn say_hello() {
+    println!("world!");
+}
+

@@ -1,2 +1,10 @@
 /target
 .idea
+*/target
+minigrep/target
+my-redis/target
+practical-algorithm/target
+study/target
+threadpool/target
+tokio-study/target
+.DS_Store

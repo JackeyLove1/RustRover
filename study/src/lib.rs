@@ -22,6 +22,7 @@ use std::{
     thread,
 };
 
+/*
 pub struct Worker {
     id : usize,
     thread: Option<thread::JoinHandle<()>>
@@ -93,7 +94,7 @@ impl Drop for ThreadPool {
         }
     }
 }
-
+*/
 #[cfg(test)]
 mod tests{
     use super::*;

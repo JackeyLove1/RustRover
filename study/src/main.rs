@@ -110,6 +110,38 @@ fn server() {
     }
 }
 
+fn test_iter_map(){
+    let res1: i32 = (1..30).sum();
+    println!("res1: {}", res1);
+
+    let res2 : i32 = (1..1000).find(|n| {return n % 2 == 0}).unwrap();
+    println!("res2: {}", res2);
+
+    let res3  = (1..1000).all(|n| {return n < 1000;});
+    println!("res3: {}", res3);
+
+    let res4  = (1..1000).any(|n| {return n > 1000;});
+    println!("res3: {}", res4);
+
+    for (index, value) in (1..5).enumerate(){
+        println!("index: {}, value: {}", index, value);
+    }
+
+    for (index, value) in (1..5).rev().enumerate(){
+        println!("index: {}, value: {}", index, value);
+    }
+
+    let mut a = (0..10);
+    let mut b = (0..5);
+    for (x, y) in a.zip(b){
+        println!("zip x:{x}, y:{y}");
+    }
+
+    let max_value : Option<i32> = (-5..100).max();
+    println!("max value: {:?}", max_value);
+
+}
+
 
 fn main() {
     box_list_print();
@@ -125,4 +157,6 @@ fn main() {
     // server();
 
     // test_thread_pool();
+
+    test_iter_map();
 }
