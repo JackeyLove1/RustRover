@@ -142,6 +142,27 @@ fn test_iter_map(){
 
 }
 
+fn dash_map(){
+    use dashmap::DashMap;
+    let reviews = DashMap::new();
+    reviews.insert("Veloren", "What a fantastic game!");
+
+    println!("reviews: {:?}", reviews);
+
+    let mappings = DashMap::with_shard_amount(32);
+    mappings.insert(1, 2);
+    mappings.insert(3, 2);
+    println!("mappings: {:?}", mappings);
+    println!("iters: {}", mappings.iter().count())
+
+}
+
+use std::ops::Add;
+fn double_it<T>(value : T) -> T
+where T : Add<Output=T> + Copy + Clone
+{
+    return value + value;
+}
 
 fn main() {
     box_list_print();
@@ -159,4 +180,10 @@ fn main() {
     // test_thread_pool();
 
     test_iter_map();
+
+    dash_map();
+
+    println!("{} + {} = {}", 1, 1, double_it(1));
+
+
 }
